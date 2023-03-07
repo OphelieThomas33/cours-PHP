@@ -1,0 +1,13 @@
+<?php
+
+    $dollar = 1.08;
+    $yens = 120.34;
+    $bitcoin = 0.00016;
+    $euro = 3.12;
+
+    echo $euro . " = " . ($euro * $dollar) . " dollars, " . ($euro * $yens) . " yens et " . ($euro * $bitcoin) . ' bitcoins.';
+
+
+
+
+?>
