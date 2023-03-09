@@ -22,7 +22,7 @@ if ($hasUnreadMessages) {
 }
   
 if ($mustCleanMessages) {
-echo 'Vous avez des messages à nettoyer<br>';
+    echo 'Vous avez des messages à nettoyer<br>';
 }
   
 if ($isMessageboxFull) {
