@@ -12,15 +12,11 @@
 
 <?php
 
-$table = 0;
-
-for ($i = 1; $i <= 9; $i++) {
-  $table = $i;
-  echo 'Table de  : '.$i.'<br>';
-  for ($table = 0; $table <= 10; $table++) {
-    echo $i.' x '.$table.' = '. $i*$table. '<br>';
+for ($table = 1; $table <= 9; $table++) {
+  echo 'Table de  : '.$table.'<br>';
+  for ($multiplicateur = 0; $multiplicateur <= 10; $multiplicateur++) {
+    echo $table.' x '.$ultiplicateur.' = '. $table*$ultiplicateur. '<br>';
   }
-
 }
 ?>
 
